@@ -1,0 +1,15 @@
+{
+  "name": "nodeplayground",
+  "version": "0.0.1",
+  "description": "Dummy package for testing node issues",
+  "main": "test.js",
+  "scripts": {
+    "test": "tsc && node lib/test.js"
+  },
+  "author": "Nayan Shah",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.6.1",
+    "phantomjs-prebuilt": "^2.1.16"
+  }
+}
